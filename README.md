@@ -3,7 +3,7 @@ In this class we learned how to call an API from an Async Task on Android.
 
 Using the sample url: https://reqres.in/api/users?page=2
 
-You can receive a JSON with id, first name, second name and a link to an image which is the avatar.
+You can receive a JSON with id, first name, second name and a link to an image which is the avatar. Once we receive it, we can display the info in an Android app.
 
 ###### Layouts and components needed:
 
