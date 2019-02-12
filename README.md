@@ -5,13 +5,35 @@ Using the sample url: https://reqres.in/api/users?page=2
 
 You can receive a JSON with id, first name, second name and a link to an image which is the avatar.
 
-With the help of a recycler view we create a template that has the next components:
-  -ImageView
-  -2 TextViews
+###### Layouts and components needed:
 
-Then a Bean called User with the next attributes:
-  -id (Integer)
-  -firstName (String)
-  -secondName (String)
-  -avatar (String)
+**item_user**
+
+|Components|Quantity|
+|----------|--------|
+|ImageView|1|
+|TextView|2|
+
+**activity_main**
+
+|Components|Quantity|
+|----------|--------|
+|RecyclerView|1|
+
+###### Bean classes needed:
+
+**User**
+
+|Attribute|Type|
+|---------|----|
+|id|Integer|
+|firstName|String|
+|secondName|String|
+|avatar|String|
+
+|Method|
+|------|
+|Getters and Setters|
+
+
 
